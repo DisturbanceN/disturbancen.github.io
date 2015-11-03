@@ -1,6 +1,6 @@
 # Site settings
 title: GameLost
-header-img: "img/twitter.jpg"
+header-img: "img/facebook.jpg"
 tagline: ""
 description: "DisturbanceN"
 baseurl: ""
@@ -46,7 +46,7 @@ defaults:
     values:
       layout: "post"
       author: "DisturbanceN"
-      header-img: "img/twitter.jpg" # We don't want posts without a header image, that whould mean white on white
+      header-img: "img/facebook.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Comments
 comments :
