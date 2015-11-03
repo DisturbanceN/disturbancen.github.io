@@ -52,9 +52,9 @@ defaults:
 comments :
   provider : duoshuo
   duoshuo :
-    short_name : Azeril
+    short_name : DisturbanceN
   disqus :
-      short_name : Azeril
+      short_name : DisturbanceN
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:
