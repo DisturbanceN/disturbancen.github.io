@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "Tags"
-description: "博客标签库"  
-header-img: "img/bay.jpg"  
+description: "博客标签库"
+header-img: "img/semantic.jpg"
 ---
 
 
@@ -12,7 +12,7 @@ header-img: "img/bay.jpg"
 {% endfor %}
 </div>
 
-*** 
+***
 ✈
 
 <ul class="listing">
@@ -27,7 +27,7 @@ header-img: "img/bay.jpg"
 {% endfor %}
 </ul>
 
-<script src="/media/js/jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script> 
+<script src="/media/js/jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script>
 <script language="javascript">
 $.fn.tagcloud.defaults = {
     size: {start: 1, end: 1, unit: 'em'},

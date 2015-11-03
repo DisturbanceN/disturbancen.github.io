@@ -2,7 +2,7 @@
 layout: page
 title: "About"
 description: "是的，我就是阿拉德大陆的勇士！"
-header-img: "img/plane.jpg"
+header-img: "img/facebook.jpg"
 ---
 
 <center>
