@@ -52,9 +52,9 @@ defaults:
 comments :
   provider : duoshuo
   duoshuo :
-    short_name : DisturbanceN
+    short_name : gamelost
   disqus :
-      short_name : DisturbanceN
+      short_name : gamelost
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:
