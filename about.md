@@ -6,7 +6,7 @@ header-img: "img/facebook.jpg"
 ---
 
 <center>
-    <p><img src="img/disturbancen.png" align="center"></p>
+    <p><img src="http://7xo125.com1.z0.glb.clouddn.com/disturbancen.png" align="center"></p>
 </center>
 
 阿拉德大陆正在载入中
