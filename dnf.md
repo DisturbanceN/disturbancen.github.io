@@ -4,6 +4,15 @@ title: "Dnf"
 description: "深渊血泪史"
 header-img: "img/facebook.jpg"
 ---
+###2015-11-8
+
+意外的收获，感觉爆率比SS还要低啊，哈哈哈哈
+<center>
+    <p><img src="http://7xo125.com1.z0.glb.clouddn.com/ScreenShot2015_1108_215959448.jpg" align="center"></p>
+    <p><img src="http://7xo125.com1.z0.glb.clouddn.com/ScreenShot2015_1108_204234122.jpg" align="center"></p>
+    <p><img src="http://7xo125.com1.z0.glb.clouddn.com/ScreenShot2015_1108_195836929.jpg" align="center"></p>
+    <p><img src="http://7xo125.com1.z0.glb.clouddn.com/ScreenShot2015_1108_005554899.jpg" align="center"></p>
+</center>
 
 ###2015-11-6
 <center>
