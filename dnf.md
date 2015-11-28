@@ -5,12 +5,16 @@ description: "深渊血泪史"
 header-img: "img/facebook.jpg"
 ---
 ###2015-11-22
+
+老马，你给我2把手搓光？？这是闹哪样？难道日期是11的倍数就能暴？
 <center>
     <p><img src="http://7xo125.com1.z0.glb.clouddn.com/ScreenShot2015_1122_215440975.jpg" align="center"></p>
     <p><img src="http://7xo125.com1.z0.glb.clouddn.com/ScreenShot2015_1122_113916793.jpg" align="center"></p>
 </center>
 
 ###2015-11-21
+
+人生第一次双黄！！！！！
 <center>
     <p><img src="http://7xo125.com1.z0.glb.clouddn.com/ScreenShot2015_1121_194024725.jpg" align="center"></p>
 </center>
@@ -136,3 +140,14 @@ header-img: "img/facebook.jpg"
     <p><img src="http://7xo125.com1.z0.glb.clouddn.com/ScreenShot2015_1020_211531349.jpg" align="center"></p>
 </center>
 
+###2015-10-18
+
+人品啊，手搓光get~!
+<center>
+    <p><img src="http://7xo125.com1.z0.glb.clouddn.com/10.18.jpg" align="center"></p>
+</center>
+
+###2015-10-11
+<center>
+    <p><img src="http://7xo125.com1.z0.glb.clouddn.com/10.11.jpg" align="center"></p>
+</center>
