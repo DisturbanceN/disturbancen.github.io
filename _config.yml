@@ -1,8 +1,8 @@
 ﻿# jekyll 相关
 # 网站的根路径
-baseurl: /
+baseurl: ""
 # 网站的地址
-url: http://gamelost.cn
+url: "http://gamelost.cn"
 #url: "http://localhost:4000"
 
 # use Github Flavored Markdown !important
