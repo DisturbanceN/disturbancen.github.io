@@ -1,8 +1,9 @@
 ---
 layout: page
-title: "About"
+title: "Special0403"
 description: "是的，我就是阿拉德大陆的勇士！"
 header-img: "img/facebook.jpg"
+permalink: Special0403.html
 ---
 
 <head>
