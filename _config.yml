@@ -1,11 +1,37 @@
-﻿# Site settings
+﻿# jekyll 相关
+# 网站的根路径
+baseurl: /
+# 网站的地址
+url: http://gamelost.cn
+#url: "http://localhost:4000"
+
+# use Github Flavored Markdown !important
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+
+markdown: kramdown
+#高亮方式
+highlighter: rouge
+#博客文章的目录结构，可以用pretty来简单的设置成日期+文章标题.html，也可以用自己喜欢的结构来设置
+permalink: pretty
+#分页，多少篇文章换一页
+paginate: 8
+#转换时排除某些文件夹或文件
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+#设置时区
+timezone: Asia/Shanghai
+#编码格式
+encoding: utf-8
+
+#---------------------------------------------------------自己的配置----------------------------------------------
+# Site settings
 title: GameLost
 header-img: "img/facebook.jpg"
 tagline: ""
 description: "DisturbanceN"
-baseurl: ""
-url: "http://disturbancen.com"
-#url: "http://localhost:4000"
 
 # About/contact
 owner:
@@ -22,19 +48,6 @@ github_username: DisturbanceN
 facebook_username: DisturbanceN
 weibo_username: DisturbanceN
 zhihu_username: DisturbanceN
-
-# Build settings
-# use Github Flavored Markdown !important
-# document: http://jekyllrb.com/docs/configuration/#kramdown
-markdown: kramdown
-highlighter: rouge #高亮方式
-permalink: pretty
-paginate: 8
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-#设置时区
-timezone: Asia/Shanghai
 
 # Defaults for posts
 defaults:
