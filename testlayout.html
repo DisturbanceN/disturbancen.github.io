@@ -1,10 +1,50 @@
 ---
+layout: default
 permalink: testlayout.html
 ---
 
 
 <!DOCTYPE html>
 <html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-title" content="新浪微博">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,minimal-ui">
+    <title>微博2015Q4及全年财报</title>
+    <link type="text/css" rel="stylesheet" href="css/earning_q4.css">
+    <style type="text/css">
+        .stage5 .num_list{top: 3.25rem;}
+        .stage5 .num_list .num4{margin-bottom:2.7rem;}
+    </style>
+    <script>
+    if (!document.createElement('canvas').getContext) {
+        alert('您浏览器版本过低，请用手机访问或更换Chrome等高级浏览器');
+    }
+    </script>
+    <script type="text/javascript">
+    var root = document.documentElement;
+    var timer = null;
+    var baseSize = 0;
+
+    function setBaseSize() {
+        baseSize = (root.clientWidth / 320) * 16;
+        baseSize = baseSize > 24 ? 24 : baseSize;
+        root.style.fontSize = baseSize + 'px';
+    }
+
+    window.addEventListener("resize",function(){
+        timer && clearTimeout(timer);
+        timer = setTimeout(setBaseSize,300);
+    },false);
+
+    setBaseSize();
+    </script>
+</head>
 
 <body>
 <div class="loading">
