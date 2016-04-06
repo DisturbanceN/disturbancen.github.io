@@ -216,10 +216,10 @@ div {
 .stage1 .slogan {
 	top: 2.5rem;
 	left: 50%;
-	width: 9rem;
-	height: 19.3125rem;
+	width: 12.9062rem;
+	height: 11.0625rem;
 	margin: 0 0 0 -4.5rem;
-	background: url("../images/stage1_slogan.png")  0 0 no-repeat;
+	background: url("../images/ui_update_logo.png")  0 0 no-repeat;
 	background-size: 9.0rem 19.3125rem;
 	opacity: 0;
 }
@@ -260,9 +260,9 @@ div {
 	opacity: 0;
 }
 .stage1 .logo {
-	width: 6.4531rem;
-	height: 5.53125rem;
-	background: url("../images/ui_update_logo.png")  0 0 no-repeat;
+	width: 6.7187rem;
+	height: 3.7500rem;
+	background: url("../images/laixi.png")  0 0 no-repeat;
 	background-size: 100%;
 	left: 50%;
 	top: 50%;
