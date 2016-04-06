@@ -218,9 +218,9 @@ div {
 	left: 50%;
 	width: 12.9062rem;
 	height: 11.0625rem;
-	margin: 0 0 0 -4.5rem;
+	margin: 0 0 0 -6.4531rem;
 	background: url("../images/ui_update_logo.png")  0 0 no-repeat;
-	background-size: 9.0rem 19.3125rem;
+	background-size: 12.9062rem 11.0625rem;
 	opacity: 0;
 }
 .stage1 .bamboo_box {
@@ -266,7 +266,7 @@ div {
 	background-size: 100%;
 	left: 50%;
 	top: 50%;
-	margin-left: -2.5625rem;
+	margin-left: -3.3593rem;
 	margin-top: 11rem;
 	opacity: 0;
 }
