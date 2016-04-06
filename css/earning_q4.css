@@ -260,9 +260,9 @@ div {
 	opacity: 0;
 }
 .stage1 .logo {
-	width: 5.125rem;
-	height: 1.8125rem;
-	background: url("../images/stage1_logo.png")  0 0 no-repeat;
+	width: 6.4531rem;
+	height: 5.53125rem;
+	background: url("../images/ui_update_logo.png")  0 0 no-repeat;
 	background-size: 100%;
 	left: 50%;
 	top: 50%;
