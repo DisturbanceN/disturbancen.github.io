@@ -214,13 +214,13 @@ div {
 	padding-left: 3px;
 }
 .stage1 .slogan {
-	top: 2.5rem;
+	top: 5.0rem;
 	left: 50%;
-	width: 12.9062rem;
-	height: 11.0625rem;
-	margin: 0 0 0 -6.4531rem;
+	width: 18.5937rem;
+	height: 12.3125rem;
+	margin: 0 0 0 -9.29685rem;
 	background: url("../images/ui_update_logo.png")  0 0 no-repeat;
-	background-size: 12.9062rem 11.0625rem;
+	background-size: 18.5937rem 12.3125rem;
 	opacity: 0;
 }
 .stage1 .bamboo_box {
