@@ -216,11 +216,11 @@ div {
 .stage1 .slogan {
 	top: 5.0rem;
 	left: 50%;
-	width: 18.5937rem;
-	height: 12.3125rem;
-	margin: 0 0 0 -9.29685rem;
+	width: 13.0155rem;
+	height: 8.6187rem;
+	margin: 0 0 0 -6.5rem;
 	background: url("../images/ui_update_logo.png")  0 0 no-repeat;
-	background-size: 70%;
+	background-size: 100%;
 	opacity: 0;
 }
 .stage1 .bamboo_box {
@@ -626,12 +626,12 @@ div {
 		-webkit-transform: translateX(0);
 		opacity: 1;
 	}
-	40% {
-		-webkit-transform: scale(1);
+	30% {
+		-webkit-transform: scale(1.05);
 		opacity: 1;
 	}
-	65% {
-		-webkit-transform: scale(1.05);
+	45% {
+		-webkit-transform: scale(1);
 		opacity: 1;
 	}
 
@@ -653,16 +653,16 @@ div {
 		-webkit-transform: translateX(0);
 		opacity: 1;
 	}
-	60% {
-		-webkit-transform: scale(1);
-		opacity: 1;
-	}
-	75% {
+	30% {
 		-webkit-transform: scale(1.05);
 		opacity: 1;
 	}
+	45% {
+		-webkit-transform: scale(1);
+		opacity: 1;
+	}
 
-	90% {
+	85% {
 		-webkit-transform: translateY(0) scale(1);
 		opacity: 1;
 	}
