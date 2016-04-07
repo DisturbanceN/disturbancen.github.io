@@ -302,7 +302,7 @@ div {
 	opacity: 0;
 }
 .stage3 .dialog {
-	top: 10.0rem;
+	top: 5.0rem;
 	width: 18.75rem;
 	font-size: 1.0rem;
 	color: #fff;
@@ -327,7 +327,7 @@ div {
 	width: 18.75rem;
 	font-size: 1.0rem;
 	color: #fff;
-	left: 50%;
+	right: 50%;
 	text-align: left;
 	margin-left: -9.375rem;
 	margin-top: 0rem;
@@ -398,7 +398,7 @@ div {
 }
 .stage8 .role {
 	bottom: 5.0rem;
-	left: 50%;
+	right: 50%;
 	width: 4.5312rem;
 	height: 5.7500rem;
 	margin: 0 0 0 0rem;
@@ -411,7 +411,7 @@ div {
 	width: 18.75rem;
 	font-size: 1.0rem;
 	color: #fff;
-	left: 50%;
+	right: 50%;
 	text-align: left;
 	margin-left: -9.375rem;
 	margin-top: 0rem;
@@ -837,10 +837,10 @@ div {
 }
 
 .scence4 .stage4 .role {
-	-webkit-animation: slideInLeft .5s ease .5s forwards;
+	-webkit-animation: slideInRight .5s ease .5s forwards;
 }
 .scence4 .stage4 .dialog {
-	-webkit-animation: numSlideInUpLastRight 2s ease 1.5s forwards;
+	-webkit-animation: numSlideInUpLastLeft 2s ease 1.5s forwards;
 }
 
 .scence5 .stage5 .role {
@@ -865,10 +865,10 @@ div {
 }
 
 .scence8 .stage8 .role {
-	-webkit-animation: slideInLeft .5s ease .5s forwards;
+	-webkit-animation: slideInRight .5s ease .5s forwards;
 }
 .scence8 .stage8 .dialog {
-	-webkit-animation: numSlideInUpLastRight 2s ease 1.5s forwards;
+	-webkit-animation: numSlideInUpLastLeft 2s ease 1.5s forwards;
 }
 
 .scence9 .stage9 .role {
