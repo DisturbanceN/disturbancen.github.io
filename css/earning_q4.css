@@ -1022,7 +1022,7 @@ div {
 		opacity: 1;
 	}
 	65% {
-		-webkit-transform: scale(1.8);
+		-webkit-transform: scale(1.2);
 		opacity: 1;
 	}
 
@@ -1049,7 +1049,7 @@ div {
 		opacity: 1;
 	}
 	75% {
-		-webkit-transform: scale(1.8);
+		-webkit-transform: scale(1.2);
 		opacity: 1;
 	}
 
