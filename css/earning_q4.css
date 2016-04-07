@@ -522,6 +522,111 @@ div {
 	margin-top: 0rem;
 	opacity: 0;
 }
+.stage14 .text_mod {
+	height: 4rem;
+}
+.stage14 .title {
+	font-size: 1.125rem;
+	opacity: 0;
+}
+.stage14 .content_mod {
+	width: auto;
+	top: 4.25rem;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: 0;
+	background: url("../images/stage9_bg.png")  center bottom no-repeat;
+	background-size: 100% 16rem;
+	opacity: 0;
+}
+.stage14 .content_mod .inner {
+	position: absolute;
+	width: 16.625rem;
+	margin-left: -8.3125rem;
+	top: 0;
+	left: 50%;
+	bottom: 0;
+}
+.stage14 .content_mod div {
+	position: static;
+}
+.stage14 .content_mod .pictxt {
+	position: relative;
+	height: 8rem;
+	padding: 2.25rem 0 2.25rem 1.0rem;
+	font-size: 0.75rem;
+}
+.stage14 .content_mod .txt_con {
+	position: relative;
+	min-height: 100%;
+	opacity: 0;
+}
+.stage14 .content_mod .txt_main {
+	margin-bottom: 0.75rem;
+	font-size: 0.875rem;
+}
+.stage14 .content_mod .txt_minor {
+	line-height: 1.3125rem;
+}
+.stage14 .content_mod .pictxt .num {
+	color: #fff;
+	font-size: 0.875rem;
+}
+.stage14 .content_mod .pic {
+	position: absolute;
+	width: 8rem;
+	height: 8rem;
+	vertical-align: middle;
+	background: url("../images/stage9_flower.png")  0 0 no-repeat;
+	background-size: 7.8125rem 39.0625rem;
+	right: 0;
+	top: 50%;
+	margin-top: -4rem;
+	opacity: 0;
+}
+.stage14 .content_mod .txt1 {
+	position: absolute;
+	right: 0;
+	top: 1rem;
+}
+.stage14 .content_mod .txt2 {
+	position: absolute;
+	left: 0;
+	bottom: 1.75rem;
+}
+.stage14 .content_mod .pic1 {
+	background-position: 0 -23.4375rem;
+	right: auto;
+	left: 0;
+}
+.stage14 .content_mod .pic2 {
+	background-position: 0 -31.5rem;
+}
+.stage14 .content_mod .flower {
+	position: absolute;
+	width: 7.8125rem;
+	height: 7.8125rem;
+	vertical-align: middle;
+	background: url("../images/stage9_flower.png")  0 0 no-repeat;
+	background-size: 7.8125rem 39.0625rem;
+	opacity: 0;
+}
+.stage14 .content_mod .flower1 {
+	background-position: 0 0;
+	left: 3.125rem;
+	top: 0;
+}
+.stage14 .content_mod .flower2 {
+	background-position: 0 -7.8125rem;
+	left: 0;
+	top: 10.5rem;
+}
+.stage14 .content_mod .flower3 {
+	background-position: 0 -15.625rem;
+	left: 9rem;
+	top: 9rem;
+}
 @-webkit-keyframes bounceIn {
 	0% {
 		-webkit-transform: scale(0, 0) translateZ(0);
@@ -904,6 +1009,54 @@ div {
 }
 .scence13 .stage13 .dialog {
 	-webkit-animation: numSlideInUpLastRight 2s ease 1.5s forwards;
+}
+.scence14 .stage14 .title {
+	-webkit-animation: slideInRight .5s ease .5s forwards;
+}
+.scence14 .stage14 .content_mod {
+	-webkit-animation: fadeIn .5s ease 1s forwards;
+}
+.scence14 .stage14 .pictxt1 .txt_con {
+	-webkit-animation: slideInLeft .5s ease 1.0s forwards;
+}
+.scence14 .stage14 .pictxt1 .pic {
+	-webkit-animation: bounceIn .5s ease 1.5s forwards;
+}
+.scence14 .stage14 .pictxt2 .txt_con {
+	-webkit-animation: slideInRight .5s ease 2s forwards;
+}
+.scence14 .stage14 .pictxt2 .pic {
+	-webkit-animation: bounceIn .5s ease 2.5s forwards;
+}
+.scence14 .stage14 .flower1 {
+	-webkit-animation: stage9_flower_ani 1.5s linear 2s forwards infinite;
+	-webkit-transform-origin: 4.1875rem 3.375rem;
+}
+.scence14 .stage14 .flower2 {
+	-webkit-animation: stage9_flower_ani 1.5s linear 3s forwards infinite;
+	-webkit-transform-origin: 4.1875rem 3.375rem;
+}
+.scence14 .stage14 .flower3 {
+	-webkit-animation: stage9_flower_ani 1.5s linear 3.5s forwards infinite;
+	-webkit-transform-origin: 4.1875rem 3.375rem;
+}
+@-webkit-keyframes stage9_flower_ani {
+	0% {
+		-webkit-transform: scale(0);
+		opacity: 0;
+	}
+	45% {
+		-webkit-transform: scale(1);
+		opacity: 1;
+	}
+	80% {
+		-webkit-transform: scale(1.5);
+		opacity: 0;
+	}
+	100% {
+		-webkit-transform: scale(2);
+		opacity: 0;
+	}
 }
 @media screen and (max-height:490px) {
 	html {
