@@ -1018,11 +1018,11 @@ div {
 		opacity: 1;
 	}
 	40% {
-		-webkit-transform: translateY(30%) scale(.8);
+		-webkit-transform: scale(1);
 		opacity: 1;
 	}
 	65% {
-		-webkit-transform: translateY(-30%) scale(1.8);
+		-webkit-transform: scale(1.8);
 		opacity: 1;
 	}
 
@@ -1045,11 +1045,11 @@ div {
 		opacity: 1;
 	}
 	60% {
-		-webkit-transform: translateY(30%) scale(.8);
+		-webkit-transform: scale(1);
 		opacity: 1;
 	}
 	75% {
-		-webkit-transform: translateY(-30%) scale(1.8);
+		-webkit-transform: scale(1.8);
 		opacity: 1;
 	}
 
