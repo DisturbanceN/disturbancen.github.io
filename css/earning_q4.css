@@ -1040,20 +1040,20 @@ div {
 		-webkit-transform: translateX(80%);
 		opacity: 0;
 	}
-	15% {
+	10% {
 		-webkit-transform: translateX(0);
 		opacity: 1;
 	}
-	40% {
+	60% {
 		-webkit-transform: translateY(30%) scale(0);
 		opacity: 1;
 	}
-	65% {
+	75% {
 		-webkit-transform: translateY(-30%) scale(1.8);
 		opacity: 1;
 	}
 
-	85% {
+	90% {
 		-webkit-transform: translateY(0) scale(.9);
 		opacity: 1;
 	}
@@ -1217,7 +1217,7 @@ div {
 	-webkit-animation: slideInLeft .5s ease .5s forwards;
 }
 .scence2 .stage2 .dialog {
-	-webkit-animation: numSlideInUpLastRight 1.5s ease 1.5s forwards;
+	-webkit-animation: numSlideInUpLastRight 2s ease 1.5s forwards;
 }
 
 
