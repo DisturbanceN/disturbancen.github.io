@@ -286,9 +286,9 @@ div {
 	width: 18.75rem;
 	font-size: 1.0rem;
 	color: #fff;
-	right: 50%;
+	left: 50%;
 	text-align: left;
-	margin-left: 9.375rem;
+	margin-left: -9.375rem;
 	margin-top: 0rem;
 	opacity: 0;
 }
