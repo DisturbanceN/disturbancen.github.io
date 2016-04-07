@@ -282,14 +282,14 @@ div {
 	opacity: 0;
 }
 .stage2 .dialog {
+	top: 10.0rem;
 	width: 18.75rem;
 	font-size: 1.0rem;
 	color: #fff;
 	right: 50%;
 	text-align: left;
-	margin-left: 0rem;
-	margin-top: 8rem;
-	top: 10.0rem;
+	margin-left: 9.375rem;
+	margin-top: 0rem;
 	opacity: 0;
 }
 
@@ -1215,7 +1215,7 @@ div {
 	-webkit-animation: slideInLeft .5s ease .5s forwards;
 }
 .scence2 .stage2 .dialog {
-	-webkit-animation: numSlideInUpLastRight .8s ease 1.5s forwards;
+	-webkit-animation: numSlideInUpLastRight 1.5s ease 1.5s forwards;
 }
 
 
