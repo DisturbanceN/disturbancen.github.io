@@ -1006,6 +1006,44 @@ div {
 		opacity: 1;
 	}
 }
+
+
+@-webkit-keyframes numSlideInUpLastRight {
+	0% {
+		-webkit-transform: translateY(30%) translateX(-80%) scale(0);
+		opacity: 0;
+	}
+	33% {
+		-webkit-transform: translateY(-30%) scale(1.8);
+		opacity: 1;
+	}
+	67% {
+		-webkit-transform: translateY(0) scale(.9);
+		opacity: 1;
+	}
+	100% {
+		-webkit-transform: translateY(0) translateX(0) scale(1);
+		opacity: 1;
+	}
+}
+@-webkit-keyframes numSlideInUpLastLeft {
+	0% {
+		-webkit-transform: translateY(30%) translateX(80%) scale(0);
+		opacity: 0;
+	}
+	33% {
+		-webkit-transform: translateY(-30%) scale(1.8);
+		opacity: 1;
+	}
+	67% {
+		-webkit-transform: translateY(0) scale(.9);
+		opacity: 1;
+	}
+	100% {
+		-webkit-transform: translateY(0) translateX(0) scale(1);
+		opacity: 1;
+	}
+}
 @-webkit-keyframes numSlideInDown {
 	0% {
 		-webkit-transform: translateY(-30%);
@@ -1160,11 +1198,8 @@ div {
 .scence2 .stage2 .role {
 	-webkit-animation: slideInLeft .5s ease .5s forwards;
 }
-.scence2 .stage2 .title {
-	-webkit-animation: slideInRight .5s ease 1.0s forwards;
-}
-.scence2 .stage2 .title .dialog {
-	-webkit-animation: numSlideInUpLast .8s ease 1.5s forwards;
+.scence2 .stage2 .dialog {
+	-webkit-animation: numSlideInUpLastRight .8s ease 1.5s forwards;
 }
 
 
