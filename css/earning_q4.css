@@ -1018,7 +1018,7 @@ div {
 		opacity: 1;
 	}
 	40% {
-		-webkit-transform: translateY(30%) scale(0);
+		-webkit-transform: translateY(30%) scale(.8);
 		opacity: 1;
 	}
 	65% {
@@ -1045,7 +1045,7 @@ div {
 		opacity: 1;
 	}
 	60% {
-		-webkit-transform: translateY(30%) scale(0);
+		-webkit-transform: translateY(30%) scale(.8);
 		opacity: 1;
 	}
 	75% {
