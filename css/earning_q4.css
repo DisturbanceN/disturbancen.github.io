@@ -220,7 +220,7 @@ div {
 	height: 12.3125rem;
 	margin: 0 0 0 -9.29685rem;
 	background: url("../images/ui_update_logo.png")  0 0 no-repeat;
-	background-size: 18.5937rem 12.3125rem;
+	background-size: 70%;
 	opacity: 0;
 }
 .stage1 .bamboo_box {
@@ -255,7 +255,7 @@ div {
 	left: 50%;
 	text-align: center;
 	margin-left: -9.375rem;
-	margin-top: 8rem;
+	margin-top: 4rem;
 	top: 50%;
 	opacity: 0;
 }
@@ -267,7 +267,7 @@ div {
 	left: 50%;
 	top: 50%;
 	margin-left: -3.3593rem;
-	margin-top: 11rem;
+	margin-top: 7rem;
 	opacity: 0;
 }
 .stage2 .role {
@@ -636,7 +636,7 @@ div {
 	}
 
 	85% {
-		-webkit-transform: translateY(0) scale(.9);
+		-webkit-transform: translateY(0) scale(1);
 		opacity: 1;
 	}
 	100% {
@@ -663,7 +663,7 @@ div {
 	}
 
 	90% {
-		-webkit-transform: translateY(0) scale(.9);
+		-webkit-transform: translateY(0) scale(1);
 		opacity: 1;
 	}
 	100% {
@@ -886,10 +886,10 @@ div {
 }
 
 .scence11 .stage11 .role {
-	-webkit-animation: slideInLeft .5s ease .5s forwards;
+	-webkit-animation: slideInRight .5s ease .5s forwards;
 }
 .scence11 .stage11 .dialog {
-	-webkit-animation: numSlideInUpLastRight 2s ease 1.5s forwards;
+	-webkit-animation: numSlideInUpLastLeft 2s ease 1.5s forwards;
 }
 
 .scence12 .stage12 .role {
