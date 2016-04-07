@@ -593,7 +593,12 @@ div {
 .stage14 .content_mod .txt2 {
 	position: absolute;
 	left: 0;
-	bottom: 1.75rem;
+	bottom: 6rem;
+}
+.stage14 .content_mod .txt3 {
+	position: absolute;
+	right: 0;
+	bottom: 1rem;
 }
 .stage14 .content_mod .pic1 {
 	background-position: 0 -23.4375rem;
@@ -601,7 +606,12 @@ div {
 	left: 0;
 }
 .stage14 .content_mod .pic2 {
-	background-position: 0 -31.5rem;
+	background-position: 0 -27.25rem;
+}
+.stage14 .content_mod .pic3 {
+	background-position: 0 -32.25rem;
+	right: auto;
+	left: 0;
 }
 .stage14 .content_mod .flower {
 	position: absolute;
@@ -1027,6 +1037,12 @@ div {
 }
 .scence14 .stage14 .pictxt2 .pic {
 	-webkit-animation: bounceIn .5s ease 2.5s forwards;
+}
+.scence14 .stage14 .pictxt3 .txt_con {
+	-webkit-animation: slideInLeft .5s ease 1.0s forwards;
+}
+.scence14 .stage14 .pictxt3 .pic {
+	-webkit-animation: bounceIn .5s ease 1.5s forwards;
 }
 .scence14 .stage14 .flower1 {
 	-webkit-animation: stage9_flower_ani 1.5s linear 2s forwards infinite;
