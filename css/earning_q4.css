@@ -1160,9 +1160,13 @@ div {
 .scence2 .stage2 .role {
 	-webkit-animation: slideInLeft .5s ease .5s forwards;
 }
-.scence2 .stage2 .dialog {
-	-webkit-animation: numSlideInUpLast .8s ease 1s forwards;
+.scence2 .stage2 .title {
+	-webkit-animation: slideInRight .5s ease 1.0s forwards;
 }
+.scence2 .stage2 .title .dialog {
+	-webkit-animation: numSlideInUpLast .8s ease 1.5s forwards;
+}
+
 
 .scence3 .stage3 .title {
 	-webkit-animation: slideInRight .5s ease .5s forwards;
