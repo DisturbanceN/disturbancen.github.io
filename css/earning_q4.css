@@ -1014,7 +1014,8 @@ div {
 		opacity: 0;
 	}
 	15% {
-		-webkit-transform: translateX(0)
+		-webkit-transform: translateX(0);
+		opacity: 1;
 	}
 	40% {
 		-webkit-transform: translateY(30%) scale(0);
@@ -1040,7 +1041,8 @@ div {
 		opacity: 0;
 	}
 	15% {
-		-webkit-transform: translateX(0)
+		-webkit-transform: translateX(0);
+		opacity: 1;
 	}
 	40% {
 		-webkit-transform: translateY(30%) scale(0);
