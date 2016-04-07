@@ -273,10 +273,10 @@ div {
 
 .stage2 .role {
 	bottom: 5.0rem;
-	right: 0%;
+	left: 50%;
 	width: 9.4687rem;
 	height: 6.1875rem;
-	margin: 0 0 0 -9.4687rem;
+	margin: 0 0 0 0rem;
 	background: url("../images/role1.png")  0 0 no-repeat;
 	background-size: 9.4687rem 6.1875rem;
 	opacity: 0;
@@ -285,9 +285,9 @@ div {
 	width: 18.75rem;
 	font-size: 1.0rem;
 	color: #fff;
-	left: 0%;
+	right: 50%;
 	text-align: left;
-	margin-left: 9.375rem;
+	margin-left: 0rem;
 	margin-top: 8rem;
 	top: 50%;
 	opacity: 0;
@@ -1158,10 +1158,10 @@ div {
 	}
 }
 .scence2 .stage2 .role {
-	-webkit-animation: slideInRight .5s ease .5s forwards;
+	-webkit-animation: slideInLeft .5s ease .5s forwards;
 }
 .scence2 .stage2 .dialog {
-	-webkit-animation: slideInRight .5s ease .5s forwards;
+	-webkit-animation: numSlideInUpLast .8s ease 1s forwards;
 }
 
 .scence3 .stage3 .title {
