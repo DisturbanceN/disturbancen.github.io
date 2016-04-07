@@ -328,7 +328,7 @@ div {
 	font-size: 1.0rem;
 	color: #fff;
 	right: 50%;
-	text-align: left;
+	text-align: right;
 	margin-right: -9.375rem;
 	margin-top: 0rem;
 	opacity: 0;
@@ -401,7 +401,7 @@ div {
 	right: 50%;
 	width: 4.5312rem;
 	height: 5.7500rem;
-	margin: 0 0 0 0rem;
+	margin: 0 0 0 -2rem;
 	background: url("../images/role5.png")  0 0 no-repeat;
 	background-size: 100%;
 	opacity: 0;
@@ -412,8 +412,8 @@ div {
 	font-size: 1.0rem;
 	color: #fff;
 	right: 50%;
-	text-align: left;
-	margin-left: -9.375rem;
+	text-align: right;
+	margin-right: -9.375rem;
 	margin-top: 0rem;
 	opacity: 0;
 }
@@ -461,10 +461,10 @@ div {
 }
 .stage11 .role {
 	bottom: 5.0rem;
-	left: 50%;
+	right: 50%;
 	width: 4.5312rem;
 	height: 5.7500rem;
-	margin: 0 0 0 0rem;
+	margin: 0 0 0 -2rem;
 	background: url("../images/role5.png")  0 0 no-repeat;
 	background-size: 100%;
 	opacity: 0;
@@ -475,7 +475,7 @@ div {
 	font-size: 1.0rem;
 	color: #fff;
 	left: 50%;
-	text-align: left;
+	text-align: right;
 	margin-left: -9.375rem;
 	margin-top: 0rem;
 	opacity: 0;
@@ -512,7 +512,7 @@ div {
 	opacity: 0;
 }
 .stage13 .dialog {
-	top: 10.0rem;
+	top: 5.0rem;
 	width: 18.75rem;
 	font-size: 1.0rem;
 	color: #fff;
@@ -631,7 +631,7 @@ div {
 		opacity: 1;
 	}
 	65% {
-		-webkit-transform: scale(1.2);
+		-webkit-transform: scale(1.05);
 		opacity: 1;
 	}
 
@@ -658,7 +658,7 @@ div {
 		opacity: 1;
 	}
 	75% {
-		-webkit-transform: scale(1.2);
+		-webkit-transform: scale(1.05);
 		opacity: 1;
 	}
 
