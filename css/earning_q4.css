@@ -573,18 +573,7 @@ div {
 	color: #fff;
 	font-size: 0.875rem;
 }
-.stage14 .content_mod .pic {
-	position: absolute;
-	width: 8rem;
-	height: 8rem;
-	vertical-align: middle;
-	background: url("../images/stage9_flower.png")  0 0 no-repeat;
-	background-size: 7.8125rem 39.0625rem;
-	right: 0;
-	top: 50%;
-	margin-top: -4rem;
-	opacity: 0;
-}
+
 .stage14 .content_mod .txt1 {
 	position: absolute;
 	right: 0;
@@ -593,25 +582,45 @@ div {
 .stage14 .content_mod .txt2 {
 	position: absolute;
 	left: 0;
-	bottom: 6rem;
+	top: 6rem;
 }
 .stage14 .content_mod .txt3 {
 	position: absolute;
 	right: 0;
-	bottom: 1rem;
+	top: 11rem;
 }
 .stage14 .content_mod .pic1 {
-	background-position: 0 -23.4375rem;
-	right: auto;
+	top: 1.0rem;
 	left: 0;
+	right: auto;
+	width: 4rem;
+	height: 4rem;
+	margin: 0 0 0 0rem;
+	background: url("../images/head1.jpg")  0 0 no-repeat;
+	background-size: 100%;
+	opacity: 0;
 }
 .stage14 .content_mod .pic2 {
-	background-position: 0 -27.25rem;
+	top: 6.0rem;
+	left: auto;
+	right: 0;
+	width: 4rem;
+	height: 4rem;
+	margin: 0 0 0 0rem;
+	background: url("../images/head2.jpg")  0 0 no-repeat;
+	background-size: 100%;
+	opacity: 0;
 }
 .stage14 .content_mod .pic3 {
-	background-position: 0 -32.25rem;
-	right: auto;
+	top: 11.0rem;
 	left: 0;
+	right: auto;
+	width: 4rem;
+	height: 4rem;
+	margin: 0 0 0 0rem;
+	background: url("../images/head3.jpg")  0 0 no-repeat;
+	background-size: 100%;
+	opacity: 0;
 }
 .stage14 .content_mod .flower {
 	position: absolute;
