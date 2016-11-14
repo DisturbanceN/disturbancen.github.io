@@ -10,7 +10,7 @@ url: "http://gamelost.cn"
 
 markdown: kramdown
 #高亮方式
-highlighter: rouge
+highlighter: pygments
 #博客文章的目录结构，可以用pretty来简单的设置成日期+文章标题.html，也可以用自己喜欢的结构来设置
 permalink: pretty
 #分页，多少篇文章换一页
