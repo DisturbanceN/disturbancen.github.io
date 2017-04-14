@@ -13,6 +13,7 @@ description:
 2.ZWrite取值为Off，这时候只要是后渲染的就会覆盖前面渲染的相同位置的像素
 3.ZWrite取值为On，这时候后渲染的物体会和深度缓冲区中的深度进行比较，如果比较成功了，则覆盖之前的像素。否则继续使用原来的像素
 4.深度的比较规则由ZTest设置，一共有以下参数类型：
+
 |---
 |类型名 |描述
 |:-|:-
@@ -46,6 +47,7 @@ mActiveList.Add(newDC);
 ```
 ##### public void UpdateGeometry ()
 外部的函数设置UIDrawCall的以下参数之后：
+
 |---
 |变量名 |描述
 |:-|:-
@@ -57,6 +59,7 @@ mActiveList.Add(newDC);
 |cols |颜色（和顶点对应）
 |norms |法线（和顶点对应）
 |tans |切线（和顶点对应）
+
 调用UpdateGeometry更新UIDrawCall对应的GameObject的MeshFilter、Mesh、MeshRenderer、Material的信息
 1.vertices、uv、colors、normals、tangents全部存储在Mesh中
 2.triangles数组表示生成的三角网格，长度一定为3的倍数，每3个点代表一个三角形网格。NGUI中的网格排列规则是固定的，使用GenerateCachedIndexBuffer函数根据顶点数量生成。4个点为一组，包含两个三角形网格，具体规则详见GenerateCachedIndexBuffer
