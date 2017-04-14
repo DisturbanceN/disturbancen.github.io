@@ -6,8 +6,8 @@ tags: [NGUI,游戏开发 ]
 description:  
 ---
 
-#### 基础知识
-##### 1.在Unity中如何确定渲染的顺序
+## 基础知识
+### 1.在Unity中如何确定渲染的顺序
 相关因素: Render Queue、 ZWrite、ZTest  
 1.Unity会先渲染Render Queue中靠前的物体  
 2.ZWrite取值为Off，这时候只要是后渲染的就会覆盖前面渲染的相同位置的像素  
@@ -26,15 +26,15 @@ description:
 |Always |渲染所有像素，等于关闭透明度测试。等于用AlphaTest Off
 |Never |不渲染任何像素
 
-#### UIDrawCall
+## UIDrawCall
 这是一个相对比较独立的类，抛开NGUI相关的内容，即使是自己实现一套代码，把渲染需要的关键数据传输进来也是可以使用的。每一个UIDrawCall对应一次draw call（一次GPU绘制）。它创建出一个GameObject并设置MeshFilter、Mesh、MeshRenderer、Material的信息，剩下的就交给Unity了。  
-##### 关键变量：
-##### mActiveList
+### 关键变量：
+### mActiveList
 处于激活状态的UIDrawCall的列表  
-##### mInactiveList
+### mInactiveList
 处于未激活状态的UIDrawCall的列表，相当于一个内存池，需要创建的时候优先从这个列表中拿  
-##### 关键函数：
-##### static UIDrawCall Create (string name)
+### 关键函数：
+### static UIDrawCall Create (string name)
 创建一个UIDrawCall，如果mInactiveList中有元素则直接从列表中拿出来一个，加入mActiveList  
 否则创建一个新的UIDrawCall  
 ```
@@ -43,7 +43,7 @@ DontDestroyOnLoad(go);   //切换场景时不会释放
 UIDrawCall newDC = go.AddComponent<UIDrawCall>();
 mActiveList.Add(newDC);
 ```
-##### public void UpdateGeometry ()
+### public void UpdateGeometry ()
 外部的函数设置UIDrawCall的以下参数之后：
 
 |---
@@ -68,10 +68,10 @@ mActiveList.Add(newDC);
 4.后续这个gameobject就会根据Unity自身的渲染规则进行渲染了  
 5.渲染顺序根据renderQueue的值确定。这个值实际上是外部程序来设置的（详细原理见基础知识【1】）  
 
-##### int[] GenerateCachedIndexBuffer (int vertexCount, int indexCount)
+### int[] GenerateCachedIndexBuffer (int vertexCount, int indexCount)
 这个函数很简单，传入顶点的数量，求出网格对应顶点的下标。由于NGUI的网格是是有规律的，所以生成规则是一致的。假设有4个顶点1,2,3,4。那么1、2、3组成一个网格。3、4、1组成一个网格。每四个顶点一组，对应2个三角形网格  
 
-##### void OnWillRenderObject ()
+### void OnWillRenderObject ()
 MonoBehaviour的函数，当渲染物体之前，如果对象可见每个相机都会调用它  
 1.调用UpdateMaterials检测是否需要重建纹理  
 2.计算裁切信息  
@@ -81,18 +81,18 @@ MonoBehaviour的函数，当渲染物体之前，如果对象可见每个相机�
 PS：NGUI的Shader一般分为XXX、XXX 1、XXX 2、XXX 3，分别代表没有裁切、1次裁切、2次裁切和3次裁切  
 
 
-##### void UpdateMaterials ()
+### void UpdateMaterials ()
 该函数在两种情况下会调用  
 1.UpdateGeometry被调用时  
 2.每次要渲染前OnWillRenderObject被调用时  
 它负责检查是否需要重建纹理（不存在纹理或者被裁切的次数变了）  
 如果需要重建，则调用RebuildMaterial重建纹理  
 
-##### Material RebuildMaterial ()
+### Material RebuildMaterial ()
 实际上就是销毁之前创建的Material，然后调用CreateMaterial再创建一个  
 然后设置mRenderer的材质为新创建的材质  
 
-##### void CreateMaterial ()
+### void CreateMaterial ()
 创建纹理的时候首先会根据裁切次数寻找正确的shader。使用这个shader和baseMaterial（用来记录这个draw call的纹理），创建一个Material  
 
 参考资料：
