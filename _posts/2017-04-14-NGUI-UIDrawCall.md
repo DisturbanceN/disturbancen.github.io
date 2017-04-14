@@ -12,9 +12,7 @@ description:
 1.Unity会先渲染Render Queue中靠前的物体  
 2.ZWrite取值为Off，这时候只要是后渲染的就会覆盖前面渲染的相同位置的像素  
 3.ZWrite取值为On，这时候后渲染的物体会和深度缓冲区中的深度进行比较，如果比较成功了，则覆盖之前的像素。否则继续使用原来的像素  
-
-4.深度的比较规则由ZTest设置，一共有以下参数类型：
-
+4.深度的比较规则由ZTest设置，一共有以下参数类型：  
 |---
 |类型名 |描述
 |:-|:-
@@ -26,10 +24,8 @@ description:
 |NotEqual |只渲染不等于AlphaValue值的像素
 |Always |渲染所有像素，等于关闭透明度测试。等于用AlphaTest Off
 |Never |不渲染任何像素
-
 #### UIDrawCall
 这是一个相对比较独立的类，抛开NGUI相关的内容，即使是自己实现一套代码，把渲染需要的关键数据传输进来也是可以使用的。每一个UIDrawCall对应一次draw call（一次GPU绘制）。它创建出一个GameObject并设置MeshFilter、Mesh、MeshRenderer、Material的信息，剩下的就交给Unity了。
-
 ##### 关键变量：
 ##### mActiveList
 处于激活状态的UIDrawCall的列表  
