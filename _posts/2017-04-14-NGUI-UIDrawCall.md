@@ -25,6 +25,7 @@ description:
 |NotEqual |只渲染不等于AlphaValue值的像素
 |Always |渲染所有像素，等于关闭透明度测试。等于用AlphaTest Off
 |Never |不渲染任何像素
+
 #### UIDrawCall
 这是一个相对比较独立的类，抛开NGUI相关的内容，即使是自己实现一套代码，把渲染需要的关键数据传输进来也是可以使用的。每一个UIDrawCall对应一次draw call（一次GPU绘制）。它创建出一个GameObject并设置MeshFilter、Mesh、MeshRenderer、Material的信息，剩下的就交给Unity了。  
 ##### 关键变量：
