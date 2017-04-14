@@ -9,11 +9,9 @@ description:
 #### 基础知识
 ##### 1.在Unity中如何确定渲染的顺序
 相关因素: Render Queue、 ZWrite、ZTest  
-1.Unity会先渲染Render Queue中靠前的物体
-
-2.ZWrite取值为Off，这时候只要是后渲染的就会覆盖前面渲染的相同位置的像素
-
-3.ZWrite取值为On，这时候后渲染的物体会和深度缓冲区中的深度进行比较，如果比较成功了，则覆盖之前的像素。否则继续使用原来的像素
+1.Unity会先渲染Render Queue中靠前的物体  
+2.ZWrite取值为Off，这时候只要是后渲染的就会覆盖前面渲染的相同位置的像素  
+3.ZWrite取值为On，这时候后渲染的物体会和深度缓冲区中的深度进行比较，如果比较成功了，则覆盖之前的像素。否则继续使用原来的像素  
 
 4.深度的比较规则由ZTest设置，一共有以下参数类型：
 
@@ -34,7 +32,7 @@ description:
 
 ##### 关键变量：
 ##### mActiveList
-处于激活状态的UIDrawCall的列表
+处于激活状态的UIDrawCall的列表  
 ##### mInactiveList
 处于未激活状态的UIDrawCall的列表，相当于一个内存池，需要创建的时候优先从这个列表中那
 </br>
