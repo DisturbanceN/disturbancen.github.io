@@ -216,10 +216,10 @@ div {
 .stage1 .slogan {
 	top: 5.0rem;
 	left: 50%;
-	width: 13.0155rem;
-	height: 8.6187rem;
+	width: 12.51rem;
+	height: 15rem;
 	margin: 0 0 0 -6.5rem;
-	background: url("../images/ui_update_logo.png")  0 0 no-repeat;
+	background: url("../images/linli/baobaolittle.png")  0 0 no-repeat;
 	background-size: 100%;
 	opacity: 0;
 }
@@ -260,34 +260,55 @@ div {
 	opacity: 0;
 }
 .stage1 .logo {
-	width: 6.7187rem;
-	height: 3.7500rem;
-	background: url("../images/laixi.png")  0 0 no-repeat;
+	width: 11.62rem;
+	height: 5rem;
+	background: url("../images/linli/happybirthday.png")  0 0 no-repeat;
 	background-size: 100%;
 	left: 50%;
 	top: 50%;
-	margin-left: -3.3593rem;
+	margin-left: -6rem;
 	margin-top: 7rem;
 	opacity: 0;
 }
 .stage2 .role {
-	bottom: 5.0rem;
+	top: 2.0rem;
 	left: 50%;
-	width: 9.4687rem;
-	height: 6.1875rem;
-	margin: 0 0 0 0rem;
-	background: url("../images/role1.png")  0 0 no-repeat;
-	background-size: 9.4687rem 6.1875rem;
+	width: 18rem;
+	height: 10.5rem;
+	margin-left: -9rem;
+	background: url("../images/linli/ouba.jpg")  0 0 no-repeat;
+	background-size: 100%;
 	opacity: 0;
 }
 .stage2 .dialog {
-	top: 10.0rem;
+	top: 12.0rem;
 	width: 18.75rem;
 	font-size: 1.0rem;
 	color: #fff;
 	left: 50%;
 	text-align: left;
-	margin-left: -9.375rem;
+	margin-left: -9rem;
+	margin-top: 0rem;
+	opacity: 0;
+}
+.stage2 .role2 {
+	top: 18.0rem;
+	left: 50%;
+	width: 18rem;
+	height: 10.5rem;
+	margin-left: -9rem;
+	background: url("../images/linli/chat.png")  0 0 no-repeat;
+	background-size: 100%;
+	opacity: 0;
+}
+.stage2 .dialog2 {
+	top: 29.0rem;
+	width: 18.75rem;
+	font-size: 1.0rem;
+	color: #fff;
+	right: 50%;
+	text-align: right;
+	margin-right: -9rem;
 	margin-top: 0rem;
 	opacity: 0;
 }
@@ -950,7 +971,12 @@ div {
 .scence2 .stage2 .dialog {
 	-webkit-animation: numSlideInUpLastRight 2s ease 1.5s forwards;
 }
-
+.scence2 .stage2 .role2 {
+	-webkit-animation: slideInRight .5s ease 2.0s forwards;
+}
+.scence2 .stage2 .dialog2 {
+	-webkit-animation: numSlideInUpLastLeft 2s ease 3.0s forwards;
+}
 .scence3 .stage3 .role {
 	-webkit-animation: slideInLeft .5s ease .5s forwards;
 }
