@@ -274,14 +274,14 @@ div {
 	top: 2.0rem;
 	left: 50%;
 	width: 18rem;
-	height: 10.5rem;
+	height: 9.9rem;
 	margin-left: -9rem;
 	background: url("../images/linli/ouba.jpg")  0 0 no-repeat;
 	background-size: 100%;
 	opacity: 0;
 }
 .stage2 .dialog {
-	top: 12.0rem;
+	top: 13.0rem;
 	width: 18.75rem;
 	font-size: 1.0rem;
 	color: #fff;
@@ -313,65 +313,90 @@ div {
 	opacity: 0;
 }
 .stage3 .role {
-	bottom: 5.0rem;
+	top: 2.0rem;
 	left: 50%;
-	width: 13.1562rem;
-	height: 13rem;
-	margin: 0 0 0 0rem;
-	background: url("../images/role2.png")  0 0 no-repeat;
+	width: 18rem;
+	height: 24rem;
+	margin-left: -9.0rem;
+	margin-top: 0rem;
+	background: url("../images/linli/wz.jpg")  0 0 no-repeat;
 	background-size: 100%;
 	opacity: 0;
 }
 .stage3 .dialog {
-	top: 5.0rem;
+	top: 27rem;
 	width: 18.75rem;
 	font-size: 1.0rem;
 	color: #fff;
 	left: 50%;
 	text-align: left;
-	margin-left: -9.375rem;
+	margin-left: -9rem;
 	margin-top: 0rem;
 	opacity: 0;
 }
 .stage4 .role {
-	bottom: 5.0rem;
+	top: 2.0rem;
 	right: 50%;
-	width: 8.2500rem;
-	height: 6.1562rem;
+	width: 15rem;
+	height: 12rem;
 	margin: 0 0 0 0rem;
-	background: url("../images/role3.png")  0 0 no-repeat;
+	margin-right: -6.0rem;
+	background: url("../images/linli/zl.jpg")  0 0 no-repeat;
 	background-size: 100%;
 	opacity: 0;
 }
 .stage4 .dialog {
-	top: 10.0rem;
+	top: 14.5rem;
+	width: 18.75rem;
+	font-size: 1.0rem;
+	color: #fff;
+	left: 50%;
+	text-align: left;
+	margin-left: -9.0rem;
+	margin-top: 0rem;
+	opacity: 0;
+}
+.stage4 .role2 {
+	top: 16.5rem;
+	left: 50%;
+	width: 18rem;
+	height: 13.5rem;
+	margin: 0 0 0 0rem;
+	margin-left: -9.0rem;
+	background: url("../images/linli/tc.jpg")  0 0 no-repeat;
+	background-size: 100%;
+	opacity: 0;
+}
+.stage4 .dialog2 {
+	top: 30.5rem;
 	width: 18.75rem;
 	font-size: 1.0rem;
 	color: #fff;
 	right: 50%;
 	text-align: right;
-	margin-right: -9.375rem;
+	margin-right: -9.0rem;
 	margin-top: 0rem;
 	opacity: 0;
 }
 .stage5 .role {
-	bottom: 5.0rem;
+	top: 2.0rem;
 	left: 50%;
-	width: 4.625rem;
-	height: 7.5625rem;
+	width: 18.0rem;
+	height: 24.0rem;
 	margin: 0 0 0 0rem;
-	background: url("../images/role4.png")  0 0 no-repeat;
+	margin-left: -9.0rem;
+	background: url("../images/linli/dsn.jpg")  0 0 no-repeat;
 	background-size: 100%;
 	opacity: 0;
 }
 .stage5 .dialog {
-	top: 10.0rem;
+	top: 26.5rem;
 	width: 18.75rem;
 	font-size: 1.0rem;
 	color: #fff;
 	left: 50%;
 	text-align: left;
-	margin-left: -9.375rem;
+	margin-left: -9.0rem;
 	margin-top: 0rem;
 	opacity: 0;
 }
@@ -972,10 +997,10 @@ div {
 	-webkit-animation: numSlideInUpLastRight 2s ease 1.5s forwards;
 }
 .scence2 .stage2 .role2 {
-	-webkit-animation: slideInRight .5s ease 2.0s forwards;
+	-webkit-animation: slideInRight .5s ease 2.5s forwards;
 }
 .scence2 .stage2 .dialog2 {
-	-webkit-animation: numSlideInUpLastLeft 2s ease 3.0s forwards;
+	-webkit-animation: numSlideInUpLastLeft 2s ease 3.5s forwards;
 }
 .scence3 .stage3 .role {
 	-webkit-animation: slideInLeft .5s ease .5s forwards;
@@ -989,6 +1014,12 @@ div {
 }
 .scence4 .stage4 .dialog {
 	-webkit-animation: numSlideInUpLastLeft 2s ease 1.5s forwards;
+}
+.scence4 .stage4 .role2 {
+	-webkit-animation: slideInRight .5s ease 2.5s forwards;
+}
+.scence4 .stage4 .dialog2 {
+	-webkit-animation: numSlideInUpLastLeft 2s ease 3.5s forwards;
 }
 
 .scence5 .stage5 .role {
