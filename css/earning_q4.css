@@ -401,44 +401,90 @@ div {
 	opacity: 0;
 }
 .stage6 .role {
-	bottom: 5.0rem;
+	top: 2.0rem;
 	left: 50%;
-	width: 9.4687rem;
-	height: 6.1875rem;
+	width: 18.0rem;
+	height: 13.5rem;
 	margin: 0 0 0 0rem;
-	background: url("../images/role1.png")  0 0 no-repeat;
+	margin-left: -9.0rem;
+	background: url("../images/linli/mdzd.jpg")  0 0 no-repeat;
 	background-size: 100%;
 	opacity: 0;
 }
 .stage6 .dialog {
-	top: 10.0rem;
+	top: 16.0rem;
 	width: 18.75rem;
 	font-size: 1.0rem;
 	color: #fff;
 	left: 50%;
 	text-align: left;
-	margin-left: -9.375rem;
+	margin-left: -9.0rem;
+	margin-top: 0rem;
+	opacity: 0;
+}
+.stage6 .role2 {
+	top: 18.0rem;
+	left: 50%;
+	width: 18.0rem;
+	height: 13.5rem;
+	margin: 0 0 0 0rem;
+	margin-left: -9.0rem;
+	background: url("../images/linli/qs.jpg")  0 0 no-repeat;
+	background-size: 100%;
+	opacity: 0;
+}
+.stage6 .dialog2 {
+	top: 32.0rem;
+	width: 18.75rem;
+	font-size: 1.0rem;
+	color: #fff;
+	right: 50%;
+	text-align: right;
+	margin-right: -9.0rem;
 	margin-top: 0rem;
 	opacity: 0;
 }
 .stage7 .role {
-	bottom: 5.0rem;
+	top: 2.0rem;
 	left: 50%;
-	width: 4.625rem;
-	height: 7.5625rem;
+	width: 18.0rem;
+	height: 13.5rem;
 	margin: 0 0 0 0rem;
-	background: url("../images/role4.png")  0 0 no-repeat;
+	margin-left: -9.0rem;
+	background: url("../images/linli/kpl.jpg")  0 0 no-repeat;
 	background-size: 100%;
 	opacity: 0;
 }
 .stage7 .dialog {
-	top: 10.0rem;
+	top: 16.0rem;
 	width: 18.75rem;
 	font-size: 1.0rem;
 	color: #fff;
 	left: 50%;
 	text-align: left;
-	margin-left: -9.375rem;
+	margin-left: -9.0rem;
+	margin-top: 0rem;
+	opacity: 0;
+}
+.stage7 .role2 {
+	top: 18.0rem;
+	left: 50%;
+	width: 18.0rem;
+	height: 13.5rem;
+	margin: 0 0 0 0rem;
+	margin-left: -9.0rem;
+	background: url("../images/linli/hehua.jpg")  0 0 no-repeat;
+	background-size: 100%;
+	opacity: 0;
+}
+.stage7 .dialog2 {
+	top: 32.0rem;
+	width: 18.75rem;
+	font-size: 1.0rem;
+	color: #fff;
+	right: 50%;
+	text-align: right;
+	margin-right: -9.0rem;
 	margin-top: 0rem;
 	opacity: 0;
 }
@@ -1035,14 +1081,24 @@ div {
 .scence6 .stage6 .dialog {
 	-webkit-animation: numSlideInUpLastRight 2s ease 1.5s forwards;
 }
-
+.scence6 .stage6 .role2 {
+	-webkit-animation: slideInRight .5s ease 2.5s forwards;
+}
+.scence6 .stage6 .dialog2 {
+	-webkit-animation: numSlideInUpLastLeft 2s ease 3.5s forwards;
+}
 .scence7 .stage7 .role {
 	-webkit-animation: slideInLeft .5s ease .5s forwards;
 }
 .scence7 .stage7 .dialog {
 	-webkit-animation: numSlideInUpLastRight 2s ease 1.5s forwards;
 }
-
+.scence7 .stage7 .role2 {
+	-webkit-animation: slideInRight .5s ease 2.5s forwards;
+}
+.scence7 .stage7 .dialog2 {
+	-webkit-animation: numSlideInUpLastLeft 2s ease 3.5s forwards;
+}
 .scence8 .stage8 .role {
 	-webkit-animation: slideInRight .5s ease .5s forwards;
 }
