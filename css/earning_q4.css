@@ -214,7 +214,7 @@ div {
 	padding-left: 3px;
 }
 .stage1 .slogan {
-	top: 5.0rem;
+	top: 2.0rem;
 	left: 50%;
 	width: 12.51rem;
 	height: 15rem;
@@ -249,25 +249,23 @@ div {
 	background-size: 100%;
 }
 .stage1 .title {
+	top: 19rem;
 	width: 18.75rem;
 	font-size: 1.0rem;
 	color: #fff;
 	left: 50%;
 	text-align: center;
 	margin-left: -9.375rem;
-	margin-top: 4rem;
-	top: 50%;
 	opacity: 0;
 }
 .stage1 .logo {
+	top: 22rem;
 	width: 11.62rem;
 	height: 5rem;
 	background: url("../images/linli/happybirthday.png")  0 0 no-repeat;
 	background-size: 100%;
 	left: 50%;
-	top: 50%;
 	margin-left: -6rem;
-	margin-top: 7rem;
 	opacity: 0;
 }
 .stage2 .role {
@@ -292,7 +290,7 @@ div {
 	opacity: 0;
 }
 .stage2 .role2 {
-	top: 18.0rem;
+	top: 16.0rem;
 	left: 50%;
 	width: 18rem;
 	height: 10.5rem;
@@ -302,7 +300,7 @@ div {
 	opacity: 0;
 }
 .stage2 .dialog2 {
-	top: 29.0rem;
+	top: 27.0rem;
 	width: 18.75rem;
 	font-size: 1.0rem;
 	color: #fff;
@@ -337,16 +335,16 @@ div {
 .stage4 .role {
 	top: 2.0rem;
 	right: 50%;
-	width: 15rem;
-	height: 12rem;
+	width: 13rem;
+	height: 10rem;
 	margin: 0 0 0 0rem;
-	margin-right: -6.0rem;
+	margin-right: -4.0rem;
 	background: url("../images/linli/zl.jpg")  0 0 no-repeat;
 	background-size: 100%;
 	opacity: 0;
 }
 .stage4 .dialog {
-	top: 14.5rem;
+	top: 12.5rem;
 	width: 18.75rem;
 	font-size: 1.0rem;
 	color: #fff;
@@ -357,18 +355,18 @@ div {
 	opacity: 0;
 }
 .stage4 .role2 {
-	top: 16.5rem;
+	top: 15rem;
 	left: 50%;
-	width: 18rem;
-	height: 13.5rem;
+	width: 16rem;
+	height: 12rem;
 	margin: 0 0 0 0rem;
-	margin-left: -9.0rem;
+	margin-left: -7.0rem;
 	background: url("../images/linli/tc.jpg")  0 0 no-repeat;
 	background-size: 100%;
 	opacity: 0;
 }
 .stage4 .dialog2 {
-	top: 30.5rem;
+	top: 27.5rem;
 	width: 18.75rem;
 	font-size: 1.0rem;
 	color: #fff;
@@ -403,8 +401,8 @@ div {
 .stage6 .role {
 	top: 2.0rem;
 	left: 50%;
-	width: 18.0rem;
-	height: 13.5rem;
+	width: 16.0rem;
+	height: 12.0rem;
 	margin: 0 0 0 0rem;
 	margin-left: -9.0rem;
 	background: url("../images/linli/mdzd.jpg")  0 0 no-repeat;
@@ -412,7 +410,7 @@ div {
 	opacity: 0;
 }
 .stage6 .dialog {
-	top: 16.0rem;
+	top: 14.2rem;
 	width: 18.75rem;
 	font-size: 1.0rem;
 	color: #fff;
@@ -423,18 +421,18 @@ div {
 	opacity: 0;
 }
 .stage6 .role2 {
-	top: 18.0rem;
-	left: 50%;
-	width: 18.0rem;
-	height: 13.5rem;
+	top: 16.0rem;
+	right: 50%;
+	width: 16.0rem;
+	height: 12.0rem;
 	margin: 0 0 0 0rem;
-	margin-left: -9.0rem;
+	margin-right: -9.0rem;
 	background: url("../images/linli/qs.jpg")  0 0 no-repeat;
 	background-size: 100%;
 	opacity: 0;
 }
 .stage6 .dialog2 {
-	top: 32.0rem;
+	top: 28.2rem;
 	width: 18.75rem;
 	font-size: 1.0rem;
 	color: #fff;
@@ -447,8 +445,8 @@ div {
 .stage7 .role {
 	top: 2.0rem;
 	left: 50%;
-	width: 18.0rem;
-	height: 13.5rem;
+	width: 16.0rem;
+	height: 12.0rem;
 	margin: 0 0 0 0rem;
 	margin-left: -9.0rem;
 	background: url("../images/linli/kpl.jpg")  0 0 no-repeat;
@@ -456,7 +454,7 @@ div {
 	opacity: 0;
 }
 .stage7 .dialog {
-	top: 16.0rem;
+	top: 14.2rem;
 	width: 18.75rem;
 	font-size: 1.0rem;
 	color: #fff;
@@ -467,18 +465,18 @@ div {
 	opacity: 0;
 }
 .stage7 .role2 {
-	top: 18.0rem;
-	left: 50%;
-	width: 18.0rem;
-	height: 13.5rem;
+	top: 16.0rem;
+	right: 50%;
+	width: 16.0rem;
+	height: 12.0rem;
 	margin: 0 0 0 0rem;
-	margin-left: -9.0rem;
+	margin-right: -9.0rem;
 	background: url("../images/linli/hehua.jpg")  0 0 no-repeat;
 	background-size: 100%;
 	opacity: 0;
 }
 .stage7 .dialog2 {
-	top: 32.0rem;
+	top: 28.2rem;
 	width: 18.75rem;
 	font-size: 1.0rem;
 	color: #fff;
