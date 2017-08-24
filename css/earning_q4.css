@@ -536,8 +536,19 @@ div {
 }
 .stage8 .content_mod .txt4 {
 	position: absolute;
+	top: 19.0rem;
 	left: 0;
-	top: 20rem;
+	width: 4rem;
+	height: 4rem;
+	margin: 0 0 0 0rem;
+	background: url("../images/linli/pika.gif")  0 0 no-repeat;
+	background-size: 100%;
+	opacity: 0;
+}
+.stage8 .content_mod .txt5 {
+	position: absolute;
+	left: 5rem;
+	top: 19rem;
 	opacity: 0;
 }
 .stage8 .content_mod .pic1 {
@@ -1062,6 +1073,9 @@ div {
 }
 .scence8 .stage8 .content_mod .txt4 {
 	-webkit-animation: slideInRight .5s ease 11.5s forwards;
+}
+.scence8 .stage8 .content_mod .txt5 {
+	-webkit-animation: fadeIn .5s ease 12.0s forwards;
 }
 
 .scence8 .stage8 .flower1 {
